@@ -70,10 +70,10 @@ $("#contentsConfirm").click(function(){
   const num=$('#routinenum').val();
   console.log(startDay);
 
-  // console.log(endDay);
-  // console.log(title);
-  // console.log(videoId);
-  // console.log(num);
+  console.log(endDay);
+  console.log(title);
+  console.log(videoId);
+  console.log(num);
   $.ajax({
     url: '/routine/update',
     type: 'POST',

@@ -83,6 +83,8 @@ public class RoutineController {
 	@PostMapping("update")
 	public ModelAndView  setRoutineUpdate(RoutineDTO routineDTO, HttpSession session)throws Exception{
 		ModelAndView mv = new ModelAndView();
+		System.out.println(routineDTO.getStartDate());
+		System.out.println(routineDTO.getEndDate());
 		int result = routineService.setRoutineUpdate(routineDTO, session);
 		String msg = "업데이트 실패";
 		if(result>0) {

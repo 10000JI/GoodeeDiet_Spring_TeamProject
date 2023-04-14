@@ -68,7 +68,12 @@ $("#contentsConfirm").click(function(){
   const videoId = $('#routinevideoId').val();
   var machineName = $('#machineSelected').val();
   const num=$('#routinenum').val();
-  
+  console.log(startDay);
+
+  // console.log(endDay);
+  // console.log(title);
+  // console.log(videoId);
+  // console.log(num);
   $.ajax({
     url: '/routine/update',
     type: 'POST',
@@ -305,7 +310,6 @@ $("#contentsConfirm").click(function(){
 // $('#routineBtn').click(function(){
 //     location.href="./add";
 // });
-
 
 
 

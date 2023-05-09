@@ -27,6 +27,13 @@ public class CartController {
 	@Autowired
 	CartService cartService;
 	
+	@GetMapping("tmdgus")
+	public ModelAndView asdfasdf(HttpSession session)throws Exception{
+		ModelAndView mv = new ModelAndView();
+		mv.setViewName("order/orderSuccessPage");
+		return mv;
+	}
+	
 	@GetMapping("cartList")
 	public ModelAndView setBoardAdd(CartDTO cartDTO,HttpSession session) throws Exception{
 		ModelAndView mv = new ModelAndView();

@@ -66,7 +66,7 @@ font-family: "IBM Plex Sans KR";
 					<c:when test="${sessionMember eq null}">
 						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">장바구니에 담기</a>
 					</c:when> 
-					<c:when test="${sessionMember ne null and sessionMember.studyNum eq null}">
+					<c:when test="${sessionMember ne null}">
 						<form action="/cart/cartAdd" method="post">
 							<input type="hidden" name="studyNum" value="${dto.studyNum}">
 							<input type="hidden" name="cartPrice" value="${dto.studyCost}">		
@@ -86,7 +86,7 @@ font-family: "IBM Plex Sans KR";
 					</c:forEach>
 					<c:if test="${sessionMember.roleDTO.roleName eq 'ADMIN'}"> 
 						<button id="update" type="submit" class="btn btn-primary">스터디 수정하기</button>
-						<button id="delete" type="button" class="btn btn-primary">스터디 삭제하기</button>
+						<button id="delete" type="button" class="btn btn-danger">스터디 삭제하기</button>
 					</c:if>
 				</form>
                 </div>

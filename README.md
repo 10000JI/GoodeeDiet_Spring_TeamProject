@@ -205,8 +205,12 @@
 
   ####   7. 주문 및 결제
     - 주문 성공
+      - 주문한 가격과 결제한 가격을 검증하여 통과하면 주문이 성공
+      <img src="src/main/webapp/resources/gif/order/order_success.gif">
     
     - 주문 실패
+      - 주문한 가격과 결제한 가격이 맞지 않으면 결제가 완료되지 않는다.
+      <img src="src/main/webapp/resources/gif/order/order_fail.gif">
   
   
 ## 배포

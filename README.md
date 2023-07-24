@@ -73,7 +73,7 @@
 
 <p align="center">
   <br>
-   <img src="" > 
+   <img src="src/main/webapp/resources/images/database.png"> 
   <br>
 </p>
 

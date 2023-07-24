@@ -151,40 +151,42 @@
     
       
   ####   4. 스터디(상품)
-  - 상품 리스트
-    
   - 상품 장바구니 추가
+    <img src="src/main/webapp/resources/gif/studyClass/studyClass_cartAdd.gif">
   
   - 상품 추가
+    <img src="src/main/webapp/resources/gif/studyClass/studyClass_ADD.gif">
   
   - 상품 수정
+    <img src="src/main/webapp/resources/gif/studyClass/studyClass_update.gif">
   
   - 상품 삭제
+    <img src="src/main/webapp/resources/gif/studyClass/studyClass_delete.gif">
 
   ####   5. 운동기구(상품)
   - 상품 추가
-    <img src="src/main/webapp/resources/gif/healthMachine_add.gif">
+    <img src="src/main/webapp/resources/gif/healthMachine/healthMachine_add.gif">
     
   - 상품 옵션 추가
-    <img src="src/main/webapp/resources/gif/helthMachine/healthMachine_optionAdd.gif">
+    <img src="src/main/webapp/resources/gif/healthMachine/healthMachine_optionAdd.gif">
     
   - 상품 장바구니 추가
-    <img src="src/main/webapp/resources/gif/helthMachine/healthMachine_addCart.gif">
+    <img src="src/main/webapp/resources/gif/healthMachine/healthMachine_addCart.gif">
     
   - 상품 카테고리 추가
-    <img src="src/main/webapp/resources/gif/helthMachine/healthMachine_categoryAdd.gif">
+    <img src="src/main/webapp/resources/gif/healthMachine/healthMachine_categoryAdd.gif">
     
   - 상품 수정
-    <img src="src/main/webapp/resources/gif/helthMachine/healthMachine_update.gif">
+    <img src="src/main/webapp/resources/gif/healthMachine/healthMachine_update.gif">
   
   - 상품 상세정보 추가
-    <img src="src/main/webapp/resources/gif/helthMachine/healthMachine_update2.gif">
+    <img src="src/main/webapp/resources/gif/healthMachine/healthMachine_update2.gif">
     
   - 상품 옵션 삭제
-    <img src="src/main/webapp/resources/gif/helthMachine/healthMachine_optionDelete.gif">
+    <img src="src/main/webapp/resources/gif/healthMachine/healthMachine_optionDelete.gif">
     
   - 상품 삭제
-    <img src="src/main/webapp/resources/gif/helthMachine/healthMachine_delete.gif">
+    <img src="src/main/webapp/resources/gif/healthMachine/healthMachine_delete.gif">
 
   ####   6. 게시판
   - REVIEW

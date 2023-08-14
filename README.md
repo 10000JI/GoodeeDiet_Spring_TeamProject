@@ -124,30 +124,39 @@
 
 ## 기능구현
 
-  ####   1. 회원
+  ####   1. 회원 *수정필요*
   - 회원가입
-    
+    <img src="src/main/webapp/resources/gif/member/member_join.gif">
     
   - 마이페이지
-
+    <img src="src/main/webapp/resources/gif/member/member_myPage.gif">
+    
 
   ####   2. 이달의 루틴
   - 루틴 일정 및 컨텐츠 재생
-
+    <img src="src/main/webapp/resources/gif/routine/routine_Action.gif">
+    
   - 루틴 추가
+    <img src="src/main/webapp/resources/gif/routine/routine_Add.gif">
   
   - 루틴 수정
+    <img src="src/main/webapp/resources/gif/routine/routine_Update.gif">
   
   - 루틴 삭제
+    <img src="src/main/webapp/resources/gif/routine/routine_Delete.gif">
     
   ####   3. 짧강효확
   - 컨텐츠 재생
+    <img src="src/main/webapp/resources/gif/exercise/exercise_Action.gif">
     
   - 컨텐츠 추가
+    <img src="src/main/webapp/resources/gif/exercise/exercise_Add.gif">
     
   - 컨텐츠 수정
+    <img src="src/main/webapp/resources/gif/exercise/exercise_Update.gif">
     
   - 컨텐츠 삭제
+    <img src="src/main/webapp/resources/gif/exercise/exercise_Delete.gif">
     
       
   ####   4. 스터디(상품)
@@ -191,17 +200,24 @@
   ####   6. 게시판
   - REVIEW
       - REVIEW 작성
-     
+        <img src="src/main/webapp/resources/gif/study_review_Add.gif">
+        
       - REVIEW 수정
+        <img src="src/main/webapp/resources/gif/study_reivew_update.gif">
       
       - REVIEW 삭제
+        <img src="src/main/webapp/resources/gif/study_review_delete.gif">
 
   - QNA
       - QNA 작성
+        <img src="src/main/webapp/resources/gif/study_qna_Add.gif">
       
       - QNA 수정
+        <img src="src/main/webapp/resources/gif/study_qna_update.gif">
       
       - QNA 삭제
+        <img src="src/main/webapp/resources/gif/study_qna_Delte.gif">
+        
 
   ####   7. 주문 및 결제
   - 주문 성공

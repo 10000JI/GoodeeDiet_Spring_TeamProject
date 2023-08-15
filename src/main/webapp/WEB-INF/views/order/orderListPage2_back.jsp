@@ -11,6 +11,9 @@
 <c:import url="../template/common_css.jsp"></c:import>
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"> -->
 <style type="text/css">
+
+
+/* orderController getOrderList ViewName */
 body {
             min-height: 100vh;
             background-size: cover;
@@ -113,12 +116,30 @@ body {
 
 <div class="calendar"></div>
 <input type="date" id="startDate" name="startDate"/>~<input type="date" id="endDate" name="endDate" />
-<button type="button" onclick="javascript:datedate()">datedate</button>
+<button type="button" onclick="javascript:datedate()">날짜검색</button>
 
 
 	<div class="container-fluid">
 		<div class="row">
-			<c:import url="../member/memberHeader.jsp"></c:import>
+<%-- 			<c:import url="../member/memberHeader.jsp"></c:import> --%>
+
+<div class="col-2 mx-1 mb-3" style="box-shadow: 2px 2px 10px 0px rgb(190, 108, 170); ">
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active mt-1" aria-current="page" href="/order/list">주문/배송</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="/member/update">개인정보</a>
+  </li> 
+  <li class="nav-item">
+    <a class="nav-link" href="/member/delivery">배송지 설정</a>
+  </li>
+  <c:if test="${sessionMember.roleDTO.roleName eq 'ADMIN'}">
+  <li><a class="nav-link" href="/member/manage">회원관리</a></li>
+  </c:if>
+</ul>
+</div>
+
 
 			<div class="col-8">
 				<div class="row ajaxOut"><!-- ajaxOut -->

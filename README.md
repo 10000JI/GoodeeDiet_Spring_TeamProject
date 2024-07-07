@@ -73,7 +73,7 @@
 >
 > **사용 언어:** JAVA
 > 
-> **프레임 워크:** Spring, MyBatis
+> **프레임 워크:** Spring Framework, MyBatis
 
 ## DB설계
 
